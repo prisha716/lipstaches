@@ -1,0 +1,19 @@
+h3 {
+    font-size: 25px;
+    font-family: 'Kaushan Script', cursive;
+}
+.btn-dark:hover {
+    background-color: red;
+}
+canvas {
+    animation-name:example ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px black;}
+}
+.font {
+    font-family: 'Kaushan Script', cursive;
+}
