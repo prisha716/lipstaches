@@ -22,15 +22,15 @@ function preload() {
 
     
     console.log(results);
-    noseX=results[0].pose.nose.x-10;
-    noseY=results[0].pose.nose.y-10 ;
+    noseX=results[0].pose.nose.x-12;
+    noseY=results[0].pose.nose.y+20;
      console.log("nose x=" + results[0].pose.nose.x);
      console.log("nose y=" + results[0].pose.nose.y);}
 
  }
  function draw() {
 image(video,0,0,300,300);
-image(lipstick,noseX,noseY,100,60);
+image(lipstick,noseX,noseY,40,30);
  }
 function take_snapshot() {
     save('myfilter.png');
